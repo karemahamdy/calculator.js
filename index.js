@@ -12,6 +12,9 @@ function appendNumber(number) {
   function appendOperator(operator) {
     document.querySelector("input").value += operator;
   }
+  function appendDot(operator) {
+    document.querySelector("input").value += operator;
+  }
   function deleteNumber() {
     let currentResult = document.querySelector("input").value;
     document.querySelector("input").value = currentResult.slice(0, -1);
